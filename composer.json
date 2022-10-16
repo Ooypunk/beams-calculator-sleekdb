@@ -1,0 +1,27 @@
+{
+	"name": "ooypunk/beams-calculator-sleekdb",
+	"description": "Layer around beams-calculator-lib: seeing that Lib runs out of memory easily, keep data in files instead",
+	"type": "project",
+	"authors": [
+		{
+			"name": "Paul Staring",
+			"email": "ooypunk@protonmail.com"
+		}
+	],
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/Ooypunk/beams-calculator-lib.git"
+		}
+	],
+	"require": {
+		"php": "^7.4",
+		"ooypunk/beams-calculator-lib": "dev-master",
+		"rakibtg/sleekdb": "^2.15"
+	},
+	"autoload": {
+		"psr-4": {
+			"Ooypunk\\BeamsCalculatorSleekdb\\": "src/"
+		}
+	}
+}
