@@ -17,11 +17,15 @@
 	"require": {
 		"php": "^7.4",
 		"ooypunk/beams-calculator-lib": "dev-master",
-		"rakibtg/sleekdb": "^2.15"
+		"rakibtg/sleekdb": "^2.15",
+		"league/csv": "^9.8"
 	},
 	"autoload": {
 		"psr-4": {
 			"Ooypunk\\BeamsCalculatorSleekdb\\": "src/"
 		}
+	},
+	"require-dev": {
+		"symfony/var-dumper": "^5.4"
 	}
 }
